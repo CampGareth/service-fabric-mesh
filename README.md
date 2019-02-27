@@ -1,3 +1,5 @@
+Forked so I could make the nginx based hello world use SSL and ultimately so I could use that for testing cert switchover on an Azure Service Fabric Cluster. If I make nginx use the cluster cert (bad practice but hey) it could be a good indicator of which cert is in use while also allowing me to test for service outages during switchover.
+
 ---
 services: service-fabric
 author: mikkelhegn
